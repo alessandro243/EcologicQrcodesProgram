@@ -56,7 +56,6 @@ class QrMaker():
             line.clear()
             return
         
-        # caso value seja 1 ou None
         name = f'Qrcode.png'
         dir_ = os.path.join(qr_folder, name)
         idKey = self.idGenerator_()
