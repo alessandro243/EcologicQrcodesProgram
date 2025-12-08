@@ -85,7 +85,7 @@
  [],
  False,
  False,
- 1764467844,
+ 1765220604,
  [('runw.exe',
    'C:\\Users\\Thalita\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')],

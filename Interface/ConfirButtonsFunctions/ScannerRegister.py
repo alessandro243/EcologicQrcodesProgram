@@ -53,8 +53,8 @@ def RegisterQR(self, line1, line2):
         else:
             print('Estou aqui')
             codeUpdater("QrManager", text2, text1, True, today)
-            pontos = sumPoints('Clients', 10, text1)
-            mostrar_popup(self, "Promoção registrado!", f"10 pontos adquiridos, faltam apenas {100-pontos} para adquirir a promoção.")
-            if pontos >= 100:
-                mostrar_popup(self, "Promoção atingida!", "Imprimindo cartão de desconto")
+            pontos = sumPoints('Clients', 1, text1)
+            mostrar_popup(self, "Promoção registrado!", f"1 pontos adquirido, faltam apenas {20-pontos} para adquirir a promoção.")
+            if pontos >= 20:
+                mostrar_popup(self, "Promoção atingida!", "O cliente ganha uma bebida a mais!")
                 pointsUpdater('Clients', text1)
